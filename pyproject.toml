@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "avikus"
+version = "0.1.0"
+description = ""
+authors = ["Einsicht1 <kpl5672@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+djangorestframework = "^3.14.0"
+django = "^4.2.7"
+pytest = "^7.4.3"
+pytest-django = "^4.7.0"
+gunicorn = "^21.2.0"
+mysqlclient = "^2.2.0"
+redis = "^5.0.1"
+drf-yasg = "^1.21.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
